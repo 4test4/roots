@@ -5,11 +5,11 @@
 <div class=container>
 <link href="offline_bootstrap.min.css" rel="stylesheet">
 
-<!--<script src='http://xregexp.com/v/3.1.1/xregexp-all.js' ></script>-->
+<!--<script src='//xregexp.com/v/3.1.1/xregexp-all.js' ></script>-->
 <script src='lib/v-3.1.1-xregexp-all.js' ></script>
-<script src="http://code.jquery.com/jquery-latest.js" language="javascript" type="text/javascript" ></script>
-<script src="http://underscorejs.org/underscore-min.js"></script>
-<script src="http://GlobalQuran.com/javascript/GlobalQuran.js?v=3.4"></script>
+<script src="//code.jquery.com/jquery-latest.js" language="javascript" type="text/javascript" ></script>
+<script src="//underscorejs.org/underscore-min.js"></script>
+<script src="//GlobalQuran.com/javascript/GlobalQuran.js?v=3.4"></script>
 
 <style>
 span[dir="rtl"]{ line-height: 60px !important; }
@@ -412,8 +412,8 @@ console.log(regex);
 		words = input.match( XRegExp(regex, "g") );
 		return words;
 	}
-	var LinkLemmaSearch = "http://corpus.quran.com/search.jsp?q=lem:$1";
-	var LinkRootSearch	= "http://corpus.quran.com/qurandictionary.jsp?q=$1";
+	var LinkLemmaSearch = "//corpus.quran.com/search.jsp?q=lem:$1";
+	var LinkRootSearch	= "//corpus.quran.com/qurandictionary.jsp?q=$1";
 
 	var onWordClick = function(word){
 		$('#output').val( $('#output').val() + ' ' + unescape(word) ); scrollToEnd('output');		
@@ -664,7 +664,7 @@ f -&gt; "ف"        y -&gt; "ي"
 
 
 <!-- YAMLI CODE START -->
-<script type="text/javascript" src="http://api.yamli.com/js/yamli_api.js"></script>
+<script type="text/javascript" src="//api.yamli.com/js/yamli_api.js"></script>
 <script type="text/javascript">
   if (typeof(Yamli) == "object" && Yamli.init( { uiLanguage: "en" , startMode: "off" } )){ //off, offOrUserDefault
 	Yamli.yamlify( "input", { settingsPlacement: "inside" } ); //hide or inside
@@ -673,7 +673,7 @@ f -&gt; "ف"        y -&gt; "ي"
 </script>
 <!-- YAMLI CODE END -->
 
-<script type="text/javascript" src="http://sdscdn.userreport.com/popup.min.js"></script>
+<script type="text/javascript" src="//sdscdn.userreport.com/popup.min.js"></script>
 <script type="text/javascript">try { _bvt.initSite('2a56faaf-211f-4c5c-adec-50f76e0aaa9d'); } catch(err) {}</script>
 
 <p class=clear>&nbsp;</p>
