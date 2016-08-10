@@ -412,8 +412,8 @@ console.log(regex);
 		words = input.match( XRegExp(regex, "g") );
 		return words;
 	}
-	var LinkLemmaSearch = "//corpus.quran.com/search.jsp?q=lem:$1";
-	var LinkRootSearch	= "//corpus.quran.com/qurandictionary.jsp?q=$1";
+	var LinkLemmaSearch = "http://corpus.quran.com/search.jsp?q=lem:$1";
+	var LinkRootSearch	= "http://corpus.quran.com/qurandictionary.jsp?q=$1";
 
 	var onWordClick = function(word){
 		$('#output').val( $('#output').val() + ' ' + unescape(word) ); scrollToEnd('output');		
